@@ -3,6 +3,8 @@ const app = express()
 const cors = require('cors')
 const PORT = 3000
 
+app.use(cors())
+
 const parks = {
     'glacier':{
         'location': 'Montana',
